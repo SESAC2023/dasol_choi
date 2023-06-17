@@ -9,3 +9,5 @@
 * ChatGPT API 활용한 레시피 생성 서비스
 * K-water 수돗물 수요예측 경진대회
 * 대장 용종 segmentation
+<br><br>
+* 학습기록용 블로그 https://allsound.tistory.com/
