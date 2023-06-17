@@ -6,3 +6,5 @@
 # 주요 프로젝트
 * 올리브영 AI 검색 어플리케이션
 * ChatGPT API 활용한 레시피 생성 서비스
+* K-water 수돗물 수요예측 경진대회
+* 대장 용종 segmentation
