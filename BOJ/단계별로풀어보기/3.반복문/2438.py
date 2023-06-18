@@ -1,0 +1,5 @@
+#별찍기
+
+t = int(input())
+for i in range(t):
+    print('*'*(i+1))
