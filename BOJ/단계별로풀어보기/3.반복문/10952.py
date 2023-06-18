@@ -1,4 +1,4 @@
-#별 찍기 - 2
+#A+B - 5
 
 while True:
     a, b = map(int, input().split())
