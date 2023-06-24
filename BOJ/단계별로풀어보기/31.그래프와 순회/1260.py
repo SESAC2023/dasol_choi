@@ -39,4 +39,5 @@ def bfs(x):
         bfs_visited[y] == True
 
 dfs(v)
+print()
 bfs(v)
