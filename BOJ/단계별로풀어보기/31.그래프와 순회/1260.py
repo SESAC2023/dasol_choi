@@ -34,7 +34,7 @@ def bfs(x):
     v = q.popleft()
     print(v, end=" ")
     for y in graph[v]:
-      if not dfs_visited[y]:
+      if not bfs_visited[y]:
         q.append(y)
         bfs_visited[y] == True
 
