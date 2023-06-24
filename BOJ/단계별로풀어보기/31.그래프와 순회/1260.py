@@ -36,7 +36,7 @@ def bfs(x):
     for y in graph[v]:
       if not bfs_visited[y]:
         q.append(y)
-        bfs_visited[y] == True
+        bfs_visited[y] = True
 
 dfs(v)
 print()
