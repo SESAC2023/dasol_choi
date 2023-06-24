@@ -15,7 +15,7 @@ for i in range(m):
   graph[u].append(v)
   graph[v].append(u)
 
-# 그래프 정렬
+# 그래프 정렬(오름차순)
 for i in range(1, n+1):
   graph[i].sort()
 
