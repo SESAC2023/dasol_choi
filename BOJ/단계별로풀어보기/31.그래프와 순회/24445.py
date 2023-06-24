@@ -22,7 +22,7 @@ for i in range(m):
     graph[v].append(u)
 
 for i in range(1, n + 1):
-    graph[i].sort(reversed=True) # 오름차순 방문
+    graph[i].sort(revers=True) # 오름차순 방문
 
 # 시작할 때
 q = deque()  # 큐를 생성
