@@ -7,3 +7,8 @@
 #             sum <- sum + A[i] × A[j]; # 코드1
 #     return sum;
 # }
+
+n = int(input())
+
+print(n*(n-1)//2)
+print(2)
