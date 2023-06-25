@@ -1,5 +1,7 @@
 #수 정렬하기 3
 
+# 메모리 초과 실패!!!!!!!!!!!!
+
 import sys
 input = sys.stdin.readline
 
