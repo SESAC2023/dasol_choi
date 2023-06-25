@@ -7,7 +7,7 @@ input = sys.stdin.readline
 
 #계수 정렬
 n = int(input())
-li = sorted([int(input()) for _ in range(n)])
+li = [int(input()) for _ in range(n)]
 
 cnt = [0] * (n+1)
 
