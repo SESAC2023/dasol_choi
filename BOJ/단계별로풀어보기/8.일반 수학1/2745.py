@@ -13,7 +13,7 @@ for i in range(len(n)):
   res += (num*int(b)**(len(n)-1-i))  # 진법 변환
 print(res)
 
-# --------------------------------------------------------------------
+#--------------------------------------------------
 # 더 간단한 코드 살펴보기
 # N, b = input().split()
 # ary = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -26,3 +26,22 @@ print(res)
 # 한 줄 함수로 출력
 # n, b = input().split()
 # print(int(n, base=int(b)))
+
+#--------------------------------------------------
+# dictionary = dict()
+# for i in range(10):
+#     dictionary[str(i)] = i
+# for i in range(26):
+#     char = chr(i + ord('A'))  # char는 차례대로 "A"부터 "Z"까지 순회
+#     dictionary[char] = i + 10
+
+# n, b = input().split()  # 입력 문자열 N
+# b = int(b)  # B진법
+
+# n = n[::-1]  # 0제곱부터 보기 위해서 문자열 뒤집기
+# answer = 0
+# for i in range(len(n)):  # 각 자리마다 확인하며
+#     x = dictionary[n[i]]  # 현재 문자열을 수로 바꾼 값
+#     y = b**i  # 현재 곱해질 수(제곱 수)
+#     answer += (x * y)
+# print(answer)
