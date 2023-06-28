@@ -1,0 +1,17 @@
+# 이항 계수
+
+# n! / k!(n-k)!
+
+import sys
+input = sys.stdin.readline
+
+n, k = map(int, input().split())
+
+def factorial(n):
+    if(n > 1):
+        return n * factorial(n - 1)
+    else:
+        return 1
+
+res = factorial(n)/(factorial(k)*factorial(n-k))
+print(int(res))
