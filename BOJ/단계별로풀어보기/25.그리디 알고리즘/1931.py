@@ -1,6 +1,5 @@
 #회의실 배정
 
-# 시간초과ㅠㅠ
 import sys
 input = sys.stdin.readline
 
@@ -11,16 +10,12 @@ for _ in range(n):
   s, e = map(int, input().split())
   times.append((s, e))
 
-times.sort()
-
-max_cnt = 0
-for i in range(n):
-  end = times[i][1]
-  cnt = 1
-  for j in range(i+1, n):
-    if times[j][0] >= end:
-      end = times[j][1]
-      cnt +=1
-  if cnt > max_cnt:
-    max_cnt = cnt
+times.sort(key= lambda x: (x[1], x[0]))
+end = 0
+cnt = 0
+for s, e in times:
+  if s >= end:
+    end = e
+    cnt +=1
+print(cnt)
 print(max_cnt)
